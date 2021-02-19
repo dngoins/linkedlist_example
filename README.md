@@ -1,20 +1,13 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introduction To Linked List Example C++
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Objectives: 
+This assignment will access your C++ language skills and understanding of linkedlists.
+After completing this assignment you will be able to do the following:
+(1) Manage a singly-linked list with pointers to the front and back of the singly-linked list, 
+(2) allocate memory dynamically
+(3) implement a default, explicit-value and copyconstructors,
+(4) a destructor,
+(5) add a node to a singly-linked list, and 
+(6) delete a node anywhere in a singly-linked list.
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
-
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Example implemented from the Prentice ADT (Abstract Data Types) Data Structures book
