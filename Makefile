@@ -17,14 +17,14 @@ APPNAME = LinkedListExample
 
 all: program
 
-list.o:
+List.o:
 	$(CC) $(CFLAGS) -c LinkedListExample/List.cpp 
 
-source.o: list.o
+Source.o: List.o
 	$(CC) $(CFLAGS) -c LinkedListExample/Source.cpp
 
-program: source.o
-	$(CC) $(CFLAGS) -o $(APPNAME) source.o list.o
+program: Source.o
+	$(CC) $(CFLAGS) -o $(APPNAME) Source.o List.o
 
 clean:
 	rm -f *.o $(OUTFILE)
