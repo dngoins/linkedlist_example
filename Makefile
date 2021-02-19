@@ -10,7 +10,7 @@
  
 CC = g++
 CFLAGS = -Wall -g -std=c++17
-APPNAME = LinkedListExample
+APPNAME = Linked_List_Example
 
 # ****************************************************
 # Targets needed to bring the executable up to date
