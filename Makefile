@@ -21,7 +21,7 @@ list.o:
 	$(CC) $(CFLAGS) -c LinkedListExample/List.cpp 
 
 source.o: list.o
-	$(CC) $(CFLAGS) -c LinkedListExample/source.cpp
+	$(CC) $(CFLAGS) -c LinkedListExample/Source.cpp
 
 program: source.o
 	$(CC) $(CFLAGS) -o $(APPNAME) source.o list.o
